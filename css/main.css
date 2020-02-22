@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Open Sans";
+  color: white;
+  background: #2c5364;
+  background: -webkit-gradient(linear, left top, left bottom, from(#2c5364), color-stop(30%, #0f2128), to(#0f2128));
+  background: linear-gradient(180deg, #2c5364 0%, #0f2128 30%, #0f2128 100%);
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.5rem;
+}
+
+.highlight {
+  color: #6EEAA1;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-right: 3em;
+}
+
+header ul li {
+  padding: 0 10px;
+}
+
+section {
+  height: 100vh;
+  padding: 7.5em;
+  padding-left: 18em;
+}
+
+footer {
+  height: 130vh;
+  background-image: url(../res/trapezoid.svg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  padding-top: 30vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.item img {
+  width: 100px;
+  margin: 70px;
+}
+
+.item img:hover {
+  padding: 70px;
+  margin: 0;
+}
+
+.email:hover {
+  background-color: #CE5959;
+}
+
+.twitter:hover {
+  background-color: #1C9DEC;
+}
+
+.facebook:hover {
+  background-color: #1774EB;
+}
+
+.github:hover {
+  background-color: #666666;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,104 @@
+$layout-padding: 3em;
+$background: #0f2128;
+
+@mixin flexCenter {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Open Sans', ;
+    color: white;
+    background: rgb(44,83,100);
+    background: linear-gradient(180deg, rgba(44,83,100,1) 0%, rgba(15,33,40,1) 30%, rgba(15,33,40,1) 100%);
+    
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+h1 {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+
+.highlight{
+    color: #6EEAA1;
+}
+
+a{
+ text-decoration: none;
+ color: white;
+ font-weight: 600;
+}
+
+header {
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        padding-right: $layout-padding ;
+        li{
+            padding: 0 10px;
+        }
+    }
+}
+
+section {
+    height: 100vh;
+    padding: $layout-padding * 2.5;
+    padding-left: $layout-padding * 6;
+}
+footer {
+    height: 130vh;
+    background-image: url(../res/trapezoid.svg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    @include flexCenter();
+}
+
+.container {
+    padding-top: 30vh;
+    @include flexCenter();
+    
+}
+
+.item {
+
+    img {
+        width: 100px;
+        margin: 70px;
+        &:hover{
+            padding: 70px;
+            margin: 0;
+        }
+    }
+}
+
+.email {
+    &:hover {
+        background-color: #CE5959;
+    }
+}
+.twitter {
+    &:hover{
+        background-color: #1C9DEC;
+    }
+}
+.facebook {
+    &:hover {
+        background-color: #1774EB;
+    }
+}
+.github{
+    &:hover{
+        background-color: #666666;
+    }
+}
