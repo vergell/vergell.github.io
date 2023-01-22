@@ -28876,24 +28876,7 @@ var sketch = function sketch(p) {
     for (var index = 0; index < num; index++) {
       star.push(new Stars(p.randomGaussian(p.windowWidth / 2 * 0.2, p.windowHeight * 0.9), p.random(p.TWO_PI), p.random(2.5)));
     }
-  }; // p.applyGrain = function () {
-  //   grainBuffer.clear();
-  //   grainBuffer.reset();
-  //   grainBuffer.push();
-  //   grainBuffer.shader(grainShader);
-  //   grainShader.setUniform("noiseSeed", p.random()); // to make the grain change each frame
-  //   grainShader.setUniform("source", p.mainCanvas);
-  //   grainShader.setUniform("noiseAmount", 0.1);
-  //   grainBuffer.rectMode(p.CENTER);
-  //   grainBuffer.noStroke();
-  //   grainBuffer.rect(0, 0, p.width, p.height);
-  //   grainBuffer.pop();
-  //   clear();
-  //   push();
-  //   p.image(grainBuffer, 0, 0);
-  //   pop();
-  // };
-
+  };
 
   p.draw = function () {
     //background color
@@ -29017,7 +29000,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53616" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56129" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
