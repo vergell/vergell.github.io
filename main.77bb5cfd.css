@@ -17,12 +17,12 @@
 }
 
 .about-wrapper {
-  padding-top: 4em;
+  padding-top: 1.7em;
 }
 .about-wrapper p {
   padding: 1em;
-  width: 65%;
-  margin: 1em auto;
+  width: 75%;
+  margin: auto;
   font-size: 1.7em;
 }
 @media only screen and (min-width: 440px) {
@@ -51,35 +51,33 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 2em;
+  gap: 1.5em;
 }
 
 .item img {
   width: 2.5em;
-  margin: 1em;
-}
-.item img:hover {
   padding: 1em;
-  margin: 0;
-  transition: 0.3s ease;
+  transition: 0.4s;
 }
 
 @media only screen and (min-width: 640px) {
+  .container {
+    gap: 2em;
+  }
+
   .item img {
     width: 4em;
-    margin: 1em;
-  }
-  .item img:hover {
-    padding: 1em;
+    padding: 2em;
   }
 }
 @media only screen and (min-width: 940px) {
+  .container {
+    gap: 5em;
+  }
+
   .item img {
     width: 5em;
-    margin: 2em;
-  }
-  .item img:hover {
-    padding: 2em;
+    padding: 3em;
   }
 }
 .email:hover {

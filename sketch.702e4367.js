@@ -28858,7 +28858,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 var sketch = function sketch(p) {
   var canvas;
   var star = [];
-  var num = p.windowWidth * 1.2; // let grainBuffer, grainShader;
+  var num = p.windowHeight * 1.2; // let grainBuffer, grainShader;
   // let numStars = 100,
   //   sizeDiff = 10,
   //   majorAxisMinLen = 10,
@@ -28954,7 +28954,7 @@ var sketch = function sketch(p) {
     }, {
       key: "rotate",
       value: function rotate() {
-        this.radian = this.radian + 0.00008;
+        this.radian = this.radian + 0.00009;
         this.pos.x = this.x + Math.cos(this.radian) * this.dist;
         this.pos.y = this.y + Math.sin(this.radian) * this.dist;
       }
@@ -29000,7 +29000,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "56129" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "49178" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
