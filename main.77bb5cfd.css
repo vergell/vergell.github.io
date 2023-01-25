@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;500;600&family=Noto+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 .my-name {
   color: #ffd166;
 }
@@ -32,7 +32,7 @@
 }
 @media only screen and (min-width: 640px) {
   .about-wrapper p {
-    font-size: 2.4em;
+    font-size: 2.2em;
   }
 }
 
@@ -54,10 +54,25 @@ footer {
   gap: 1.5em;
 }
 
-.item img {
-  width: 2.5em;
+a {
+  text-decoration: none;
+}
+
+.item {
   padding: 1em;
   transition: 0.4s;
+}
+.item img {
+  width: 2.5em;
+}
+.item p {
+  font-size: 1.1em;
+  text-align: center;
+  color: white;
+  opacity: 0;
+}
+.item:hover p {
+  opacity: 1;
 }
 
 @media only screen and (min-width: 640px) {
@@ -65,9 +80,11 @@ footer {
     gap: 2em;
   }
 
+  .item {
+    padding: 2em;
+  }
   .item img {
     width: 4em;
-    padding: 2em;
   }
 }
 @media only screen and (min-width: 940px) {
@@ -75,9 +92,11 @@ footer {
     gap: 5em;
   }
 
+  .item {
+    padding: 2em;
+  }
   .item img {
     width: 5em;
-    padding: 3em;
   }
 }
 .email:hover {
@@ -195,7 +214,7 @@ footer {
 }
 
 body {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   background: #1b1f24;
   color: whitesmoke;
   box-sizing: border-box;
