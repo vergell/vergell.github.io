@@ -122,15 +122,13 @@ a {
 }
 
 .flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   padding-top: 2em;
   padding-bottom: 2em;
   display: flex;
   flex-wrap: wrap;
   width: 98%;
   margin: 0 auto;
+  padding-bottom: 200px;
 }
 
 .card-container {
