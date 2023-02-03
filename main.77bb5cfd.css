@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
 .my-name {
   color: #ffd166;
 }
@@ -17,11 +17,14 @@
 }
 
 .about-wrapper {
-  padding-top: 1.7em;
+  padding-top: 5em;
+  line-height: 1.4;
+  letter-spacing: -0.01em;
+  font-weight: 600;
 }
 .about-wrapper p {
   padding: 1em;
-  width: 75%;
+  width: 65%;
   margin: auto;
   font-size: 1.7em;
 }
@@ -32,7 +35,7 @@
 }
 @media only screen and (min-width: 640px) {
   .about-wrapper p {
-    font-size: 2.2em;
+    font-size: 2.4em;
   }
 }
 
@@ -40,7 +43,7 @@ footer {
   position: relative;
   margin-top: -30vh;
   height: 130vh;
-  background: #22414f;
+  background: #eb455f;
   clip-path: polygon(0 10%, 100% 0, 100% 100%, 0% 100%);
   z-index: -1;
 }
@@ -66,7 +69,7 @@ a {
   width: 2.5em;
 }
 .item p {
-  font-size: 1.1em;
+  font-size: 0.6em;
   text-align: center;
   color: white;
   opacity: 0;
@@ -81,10 +84,13 @@ a {
   }
 
   .item {
-    padding: 2em;
+    padding: 1.3em 2em;
   }
   .item img {
     width: 4em;
+  }
+  .item p {
+    font-size: 1em;
   }
 }
 @media only screen and (min-width: 940px) {
@@ -93,14 +99,17 @@ a {
   }
 
   .item {
-    padding: 2em;
+    padding: 1.3em 2em;
   }
   .item img {
     width: 5em;
   }
+  .item p {
+    font-size: 1.1em;
+  }
 }
 .email:hover {
-  background-color: #ce5959;
+  background-color: #d93737;
 }
 
 .twitter:hover {
@@ -174,7 +183,7 @@ a {
   opacity: 0;
   display: flex;
   align-items: center;
-  background: rgba(49, 47, 68, 0.83);
+  background: #eb455ef8;
   transition: 0.2s ease-in;
 }
 
@@ -213,8 +222,8 @@ a {
 
 body {
   font-family: "Poppins", sans-serif;
-  background: #1b1f24;
-  color: whitesmoke;
+  background: #ffffff;
+  color: #222;
   box-sizing: border-box;
   height: 100vh;
 }
